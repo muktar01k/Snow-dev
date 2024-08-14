@@ -48,8 +48,8 @@ const Header = () => {
                         <a href="#AboutUs">About Us</a>
                         <a href="#Experties">Experties</a>
                         <a href="#Portfolio">Portfolio</a>
-<a href="https://wa.me/2349132630151?text=Hello%20there!%20I%20just%20visited%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20project%20with%20you.">
-                        <button >Contact Us</button>
+                        <a href="https://wa.me/2349132630151?text=Hello%20there!%20I%20just%20visited%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20project%20with%20you.">
+                            <button >Contact Us</button>
                         </a>
                     </div>
                 )
@@ -61,18 +61,19 @@ const Header = () => {
                 <div className="text-center pt-[6rem] static">
                     <h2 className='font-semibold text-4xl sm:text-5xl'>Hello,Welcome To</h2>
                     <h1 className='font-bold text-5xl sm:text-6xl'>SNOWDEV</h1>
-                    <p className='pt-[2rem] text-xl'>Welcome to my digital portfolio! I'm SnowDev, a passionate and driven Frontend Developer with a knack for turning creative visions into functional, user-friendly web applications. My journey into web development began with a fascination for how design and technology intersect to create the digital experiences we interact with every day. Over the years, this curiosity has evolved into a deep commitment to mastering the art and science of frontend development.</p>
+                    <p className='pt-[2rem] text-xl '>Welcome to my digital portfolio! I'm SnowDev, a passionate and driven Frontend Developer with a knack for turning creative visions into functional, user-friendly web applications. My journey into web development began with a fascination for how design and technology intersect to create the digital experiences we interact with every day. Over the years, this curiosity has evolved into a deep commitment to mastering the art and science of frontend development.</p>
                 </div>
-                <div className=" pt-[3rem] sm:flex sm:justify-center sm:gap-[4rem]">
-                    <div className="border-[0.5rem] border-indigo-600 rounded-[1.5rem] w-[21rem]   ml-[1.5rem]">
+                <div className="pt-[3rem] md:flex sm:justify-center sm:gap-[4rem]">
+                    
+                    <div className="border-[0.5rem] border-indigo-600 rounded-[1.5rem] w-[21rem] ml-[1.2rem]">
                         <img className='w-[21rem] h-[11rem] rounded-2xl' src={Setup} alt="" />
                     </div>
 
-                    <div className=" sm:border-[0.5rem] sm:border-indigo-600 sm:w-[21rem]  sm:rounded-[1.5rem] sm:ml-[2.5rem]">
+                    <div className="hidden sm:border-[0.5rem] sm:border-indigo-600 sm:w-[21rem] sm:rounded-[1.5rem] md:block">
                         <img className='sm:w-[21rem] sm:h-[11rem] sm:rounded-2xl' src={Setup2} alt="" />
                     </div>
 
-                    <div className=" sm:border-[0.5rem] sm:border-indigo-600 sm:w-[21rem]  sm:rounded-[1.5rem] sm:ml-[2.5rem]">
+                    <div className=" sm:border-[0.5rem] sm:border-indigo-600 sm:w-[21rem] sm:rounded-[1.5rem] md:block hidden">
                         <img className='sm:w-[21rem] sm:h-[11rem] sm:rounded-2xl' src={Setup3} alt="" />
                     </div>
                 </div>
