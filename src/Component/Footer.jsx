@@ -1,4 +1,4 @@
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/LogoS.png'
 // import WhatsappIcon from '../assets/Whatsapp.svg'
 import GitLogo from '../assets/github.svg'
 import Instagram from '../assets/instagram.svg'

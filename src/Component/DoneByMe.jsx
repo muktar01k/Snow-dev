@@ -15,7 +15,7 @@ const DoneByMe = () => {
             <div className="font-semibold grid grid-cols-2 gap-[1rem] place-items-center text-center mt-[1rem] sm:flex sm:justify-center sm:gap-[5rem]">
                 <div className="flex gap-[0.5rem] ">
                     <img className='w-[1.5rem]' src={Cloud} alt="" />
-                  
+
                     <a href="https://weather-forecast-red-mu.vercel.app/" target="_blank" rel="noopener noreferrer" className='text-blue-600'>Weather Forecast</a>
                 </div>
 

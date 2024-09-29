@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import Logo from '../assets/Logo.png'
+import Logo from '../assets/LogoS.png'
 import Hamburger from '../assets/hamburger.svg'
 import Setup from '../assets/setup.avif'
 import Setup2 from '../assets/setup2.avif'
 import Setup3 from '../assets/setup3.avif'
 
 
-const Header = () => {
+const Header = ({unknown}) => {
 
     const [toggleHam, setToggleHam] = useState(false)
 
@@ -16,9 +16,9 @@ const Header = () => {
 
     return (
         <div className="">
-            <nav className='flex justify-center gap-[12rem] pt-[0.5rem] sm:gap-[25rem]'>
+            <nav className='flex justify-center gap-[12rem] pt-[0.5rem] md:gap-[18rem]'>
                 <div className="w-[5rem]">
-                    <img src={Logo} alt="" />
+                    <img onClick={unknown} src={Logo} alt=""/>
                 </div>
                 <div onClick={ativeToggle} className="w-[5rem] sm:hidden">
                     {toggleHam ? (

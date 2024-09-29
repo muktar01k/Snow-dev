@@ -16,15 +16,15 @@ const AboutUs = () => {
         </div>
         <div className="flex justify-center sm:gap-[10rem] gap-[1rem]">
           <div className="sm:w-[15rem] w-[7rem]  mt-[1rem]">
-             <img src={Think1} alt="" />
+            <img src={Think1} alt="" />
           </div>
 
           <div className="w-[7rem] sm:w-[15rem] mt-[1rem]">
-              <img src={Think2} alt="" />
+            <img src={Think2} alt="" />
           </div>
 
           <div className="w-[7rem] sm:w-[15rem] sm:mt-[1rem] mt-[1rem]">
-             <img src={Think3} alt="" />
+            <img src={Think3} alt="" />
           </div>
         </div>
       </div>
@@ -36,13 +36,13 @@ const AboutUs = () => {
         </div>
         <div className="sm:flex sm:justify-center text-center sm:gap-[5rem]">
           <div className="">
-          <p className="mt-[1rem] sm:w-[30rem] sm:mt-[11rem]">I'm always on the lookout for exciting projects and collaborations. Whether you're a startup in need of a sleek, modern website, or an established company looking to revamp your online presence, I'm here to help. Together, we can create digital experiences that not only meet your goals but exceed your expectations.</p>
-          <a href="https://wa.me/2349132630151?text=Hello%20there!%20I%20just%20visited%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20project%20with%20you.">
-           <button className='bg-indigo-200 w-[9rem] h-[3rem] text-center rounded-[2rem] shadow-lg shadow-grey sm:mt-[1rem]'>Contact Us</button>
-           </a> 
-            </div>
+            <p className="mt-[1rem] sm:w-[30rem] sm:mt-[11rem]">I'm always on the lookout for exciting projects and collaborations. Whether you're a startup in need of a sleek, modern website, or an established company looking to revamp your online presence, I'm here to help. Together, we can create digital experiences that not only meet your goals but exceed your expectations.</p>
+            <a href="https://wa.me/2349132630151?text=Hello%20there!%20I%20just%20visited%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20potential%20project%20with%20you.">
+              <button className='bg-indigo-200 w-[9rem] h-[3rem] text-center rounded-[2rem] shadow-lg shadow-grey sm:mt-[1rem]'>Contact Us</button>
+            </a>
+          </div>
           <div className="w-[20rem] ml-[2rem] sm:w-[30rem] ">
-              <img src={Desktop} alt="" />
+            <img src={Desktop} alt="" />
           </div>
         </div>
       </div>
